@@ -2,6 +2,7 @@
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+url : https://maroshim.github.io
 # Conversion
 markdown            : kramdown
 highlighter         : rouge
