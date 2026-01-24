@@ -1,5 +1,5 @@
 ---
-title: 시작 페이지
+title: 새로운 시작
 layout: post
 start: true
 ---
