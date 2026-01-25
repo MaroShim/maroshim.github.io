@@ -1,21 +1,37 @@
-# remote_theme: pages-themes/minimal@v0.2.0
-remote_theme: "mmistakes/minimal-mistakes"
+# 사이트 브랜딩 정보
+title            : "MaroShim's Tech Blog" # 블로그 제목
+name             : "MaroShim"            # 작성자 이름
+description      : "        " # 사이트 설명 (SEO 필수)
+url              : "https://maroshim.github.io"
+locale           : "ko-KR"               # 사이트 언어 설정
+# 테마 및 스킨 설정
+remote_theme     : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin : "contrast"      # 추천 스킨: contrast (깔끔), dark (눈 편함), sunrise (밝음)
+# 플러그인
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-url : https://maroshim.github.io
-# Conversion
-markdown            : kramdown
-highlighter         : rouge
-lsi                 : false
-excerpt_separator   : "\n\n"
-incremental         : false
-# Markdown Processors
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap # 검색 엔진 노출을 위해 사이트맵 자동 생성
+# 작성자 프로필 (나중에 사이드바를 위해 필요)
+author:
+  name   : "MaroShim"
+  avatar : "/assets/images/bio-photo.jpg" # 나중에 사진을 이 경로에 넣으시면 됩니다.
+  bio    : "Programmer"
+  location: "Seoul, South Korea"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/MaroShim"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:scmaro@gmail.com"
+# Markdown 설정
+markdown: kramdown
+highlighter: rouge
 kramdown:
-  auto_ids          : true
-  entity_output     : as_char
-  toc_levels        : [1, 2, 3, 4, 5, 6]
-  smart_quotes      : lsquo,rsquo,ldquo,rdquo
-  input             : GFM
-  hard_wrap         : false
-  footnote_nr       : 1
-  show_warnings     : false
+  auto_ids: true
+  toc_levels: [1, 2, 3]
+  input: GFM
+  hard_wrap: false
+  
+
