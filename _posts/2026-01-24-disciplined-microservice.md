@@ -1,7 +1,7 @@
 ---
 layout: post
-title: disciplined-microservice
-tag: TAG-NAME
+title: "규율 있는 마이크로서비스 구축: "Micro"의 함정을 넘어서"
+tags: [TAG-NAME]
 ---
 
 # 규율 있는 마이크로서비스 구축: "Micro"의 함정을 넘어서
