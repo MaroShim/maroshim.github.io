@@ -1,0 +1,18 @@
+---
+# Front matter to trigger Jekyll processing
+---
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+/* Custom overrides for content width */
+.page__content {
+  max-width: 800px; /* 원하는 가로 너비를 픽셀(px)이나 %로 지정하세요 */
+  margin-left: auto;
+  margin-right: auto;
+}
+/* (Optional) If you specifically want ONLY paragraphs to be narrower:
+.page__content p {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+*/
