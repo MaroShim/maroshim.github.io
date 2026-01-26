@@ -1,5 +1,5 @@
 ---
-title: 2026 새로운 시작
+title: year 2026
 layout: post
 start: true
 ---
